@@ -1,0 +1,42 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+/* Nav*/
+nav {
+  background-color: honeydew;
+  padding: 20px;
+  color: rgb(126, 23, 23);
+}
+/* Boton estilo*/
+.btn {
+  color: rgb(90, 90, 17);
+  background-color: beige;
+  padding: 5px;
+  border-style: none;
+  border-radius: 10px; /*Redondear el boton*/
+  margin-top: 15px;
+
+}
+.header {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("img/ham.jpg");
+  background-size: cover;
+  background-position-y: center;
+  opacity: 0.5;
+}
+
+.letra{
+    color: rgb(90, 90, 17);
+    background-color: beige;
+    border-radius: 7px;
+}
+
+.over{
+    background-color: darkslategray;
+}

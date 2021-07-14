@@ -57,7 +57,7 @@ nav {
   width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: right;
 }
 
 .tex-card {
@@ -107,4 +107,4 @@ nav {
 
 .Description {
   padding: 2rem;
-}
+} 

@@ -1,0 +1,79 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Color titulo*/
+
+.header-color {
+  color: rgb(71, 71, 172);
+}
+
+.bg-matica {
+  background-image: url("img/john-vicente-rVHhoDbvKb0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.form-container {
+  padding: 2rem;
+  width: 20%;
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inputc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.inputc input {
+  border-radius: 0.4rem;
+  border: solid 0.1rem rgb(56, 39, 211);
+  padding: 0.4rem;
+}
+
+.btnl {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.checkboxc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.btnl button {
+  padding: 0.7rem;
+  background-color: rgb(49, 49, 196);
+  border: 0;
+  border-radius: 0.2rem;
+  color: #fff;
+  transition: background-color 0.5s;
+  transition: padding 0.5s;
+}
+
+.btnl button:hover {
+  background-color: greenyellow;
+  padding: 1rem;
+}

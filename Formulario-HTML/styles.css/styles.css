@@ -18,7 +18,8 @@
 }
 
 .bg-white {
-  background-color: #fff;
+    background-color: rgba(255,255,255,0.5); 
+    
 }
 
 .form-container {
@@ -61,19 +62,55 @@
   display: flex;
   justify-content: center;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .btnl button {
   padding: 0.7rem;
-  background-color: rgb(49, 49, 196);
+  background-color: rgba(0,0,255,0.5);
   border: 0;
-  border-radius: 0.2rem;
+  border-radius: 10px;
   color: #fff;
-  transition: background-color 0.5s;
-  transition: padding 0.5s;
+  transition: background-color 1s;
+  
 }
 
 .btnl button:hover {
-  background-color: greenyellow;
-  padding: 1rem;
+  background-color: rgba(0,0,255);
+ 
 }
+
+.registrarse{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.registrarse button{
+  padding: 0.7rem;
+  background-color: rgba(0,0,255,0.5);
+  border: 0;
+  color: #fff;
+
+  border-radius: 10px;
+  
+}
+
+.registrarse a{
+  color: #fff;
+}
+
+.registrarse:hover{
+  background-color: rgba(0,0,255);
+  border-radius: 10px;
+  transition: background-color 1s;
+}
+
+.radio {
+    display: flex;
+    display: inline;
+}
+

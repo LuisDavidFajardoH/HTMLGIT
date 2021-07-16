@@ -1,0 +1,48 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  
+  /* Color titulo*/
+  
+  .header-color {
+    color: rgb(71, 71, 172);
+  }
+  
+  .bg-matica {
+    background-image: url("styles.css/img/john-vicente-rVHhoDbvKb0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-white {
+      background-color: rgba(255,255,255,0.5); 
+      
+  }
+  .form-container {
+    padding: 4rem;
+    width: 20%;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .inputc input {
+    border-radius: 0.4rem;
+    border: solid 0.1rem rgb(56, 39, 211);
+    padding: 0.4rem;
+  }
+
+  .email{
+ padding: 5rem;
+  }
+      
